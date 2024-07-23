@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #FEF3C7;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+
+#logout-btn {
+    margin: 20px 20px 0px auto;
+    display: none;
+}
+
+.endorsement-postbox {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+#postbox-logo {
+    width: 150px;
+    margin: 10px auto;
+    border-radius: 72px 72px 0px 0px;
+}
+
+#postbox-title {
+    font-size: 15px;
+    color: #B45309;
+}
+
+.login {
+    margin: 50% auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#login-label {
+    font-size: 15px;
+    color: #B45309;
+    font-weight: bold;
+}
+
+#login-input {
+    padding: 9px;
+    background: #FFE4E6;
+    border-radius: 10px;
+    border: none;
+    color: #4B5563;
+    font-size: 15px;
+    font-family: "Nunito", sans-serif;
+}
+
+#login-btn {
+    margin-top: 20px;
+}
+
+.endorsements-container {
+    display: none;
+    flex-direction: column;    
+}
+
+#endorsement-inp {
+    padding: 9px;
+    background: #FFE4E6;
+    border-radius: 10px;
+    resize: none;
+    border: none;
+    color: #4B5563;
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+}
+
+.endorsement-sender-receiver {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;    
+}
+
+#endorsement-sender, #endorsement-receiver {
+    margin: 5px 0px;
+    padding: 3px 0px 3px 4px;
+    background: #FFE4E6;
+    border-radius: 5px;
+    border: none;
+    color: #4B5563;
+    font-family: "Nunito", sans-serif;
+}
+
+#endorsement-sender-receiver-fistbump {
+    font-size: 20px;
+    margin: 3px;
+}
+
+#logout-btn, #login-btn, #endorsement-post-btn {
+    padding: 7px;
+    border-radius: 10px;
+    background: #FDA4AF;
+    border: none;
+    color: #B45309;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+}
+
+#posted-endorsement-title {
+    color: #B45309;
+    font-weight: bold;
+}
+
+.posted-endorsement {
+    font-size: 12px;
+    padding: 10px;
+    background: #D1FAE5;
+    text-align: start;
+    margin: 10px 0px;
+}
+
+.posted-endorsement-body {
+    margin: 10px 0px;
+    white-space: pre-wrap;
+}
+
+.posted-endorsement-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.posted-endorsement-likes {
+    display: flex;
+}
+
+.posted-endorsement-image-btn {
+    border: none;
+    background: #D1FAE5;
+    padding: 0px;
+    font-size: 12px;
+    margin-top: -10px;  /* to align the image with the number of likes*/
+}
+
